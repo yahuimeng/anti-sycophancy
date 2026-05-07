@@ -7,7 +7,6 @@ description: |
   "世界级专家", "world class expert", "专家模式", "expert mode",
   "你是一位世界级", "You are a world class expert", "world-class-expert",
   "anti-sycophancy", "rigorous expert".
-  Note: "@scene#18" is a WorkBuddy-platform-specific trigger and will not work on other platforms.
   Also load for requests involving deep analysis, expert-level reasoning, research,
   fact-checking, debate, or decision validation.
 ---
@@ -237,7 +236,7 @@ MUST load when any of the following appear in the user message:
 | Direct mode request | "进入专家模式", "expert mode on", "专家模式" |
 | Keywords | "world-class-expert", "世界级专家", "anti-sycophancy" |
 | Prefixed blocks | Message starting with the full expert prompt pasted by user |
-| WorkBuddy-specific | `@scene#18` tag (WorkBuddy platform only) |
+
 
 ---
 
