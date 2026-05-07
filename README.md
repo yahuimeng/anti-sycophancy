@@ -49,11 +49,19 @@ Scene is detected silently. Short follow-ups ("what do you think?", "continue") 
 
 ### Option A — WorkBuddy Skill
 
-If you're using [WorkBuddy](https://www.codebuddy.cn/docs/workbuddy/Overview):
+**Fastest install — tell your AI:**
 
+> 帮我安装这个 skill：https://github.com/yahuimeng/anti-sycophancy  
+> 下载 zip 文件，安装到 WorkBuddy 技能市场。
+
+The AI will download the zip and walk you through installation.
+
+**Manual install:**
 1. Download `anti-sycophancy.zip` from [Releases](../../releases)
-2. Install via WorkBuddy skill manager
-3. Trigger with any of: `"expert mode"`, `"专家模式"`, `"world class expert"`, `"世界级专家"`, `"anti-sycophancy"`
+2. In WorkBuddy: **技能市场 → 添加技能 → 上传技能** → drag in the zip
+3. Done.
+
+**Trigger keywords:** `"expert mode"` / `"专家模式"` / `"world class expert"` / `"世界级专家"` / `"anti-sycophancy"`
 
 ### Option B — Paste the prompt directly (any platform)
 
