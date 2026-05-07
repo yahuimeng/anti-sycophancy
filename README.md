@@ -47,23 +47,19 @@ Scene is detected silently. Short follow-ups ("what do you think?", "continue") 
 
 ## How to Use
 
-### Option A — WorkBuddy Skill
+### Option A — Let your AI install it (any agent with file/web access)
 
-**Fastest install — tell your AI:**
+Tell your AI assistant:
 
-> 帮我安装这个 skill：https://github.com/yahuimeng/anti-sycophancy  
-> 下载 zip 文件，安装到 WorkBuddy 技能市场。
+> Please install the skill from this GitHub repository: https://github.com/yahuimeng/anti-sycophancy
+>
+> Download the `SKILL.md` file and save it to your skills directory, then load it for this conversation.
 
-The AI will download the zip and walk you through installation.
+The AI will fetch the file, install it, and confirm. Works with any agent that can access the web and manage local files (WorkBuddy, Cursor, Claude Code, etc.).
 
-**Manual install:**
-1. Download `anti-sycophancy.zip` from [Releases](../../releases)
-2. In WorkBuddy: **技能市场 → 添加技能 → 上传技能** → drag in the zip
-3. Done.
+**Trigger keywords after install:** `"expert mode"` / `"专家模式"` / `"world class expert"` / `"世界级专家"` / `"anti-sycophancy"`
 
-**Trigger keywords:** `"expert mode"` / `"专家模式"` / `"world class expert"` / `"世界级专家"` / `"anti-sycophancy"`
-
-### Option B — Paste the prompt directly (any platform)
+### Option B — Paste the prompt directly (any platform, zero setup)
 
 Copy the prompt below and paste it at the start of any conversation, or add it to your system prompt.
 
