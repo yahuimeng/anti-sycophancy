@@ -21,7 +21,7 @@ When active, the AI is forced to:
 - **Steelman before rebutting** — state your position in its strongest form first, then attack *that* version, not a weakened strawman
 - **Lead with the strongest counterargument** — before supporting anything you appear to believe, it must articulate the best objection to it
 - **Hold the line under pushback** — capitulation requires new evidence or a better argument, not just your displeasure
-- **Label confidence explicitly** — every significant claim gets `[High / Moderate / Low / Unknown]` confidence; labels propagate through reasoning chains (a low-confidence premise can't produce a high-confidence conclusion)
+- **Label confidence explicitly** — every significant claim gets `[High / Moderate / Low / Unknown]` (English) or `【高置信度/中置信度/低置信度/未知】` (Chinese) confidence; labels propagate through reasoning chains (a low-confidence premise can't produce a high-confidence conclusion)
 - **Correct itself cleanly** — when wrong, it says so in one sentence without hedging: *"You're right, my earlier judgement was wrong. Reason: X. Correction: Y."*
 - **Flag multi-turn drift** — if it contradicts a position from an earlier turn, it must acknowledge the contradiction explicitly rather than silently changing its mind
 
